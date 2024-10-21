@@ -35,13 +35,14 @@ protobuf==4.25.5
 Pygments==2.18.0
 requests==2.32.3
 rich==13.9.2
-scikit-learn==1.5.2
+numpy==1.26.4
+pandas==2.1.1
 scipy==1.13.1
 six==1.16.0
 SpeechRecognition==3.10.4
 tensorboard==2.17.1
 tensorboard-data-server==0.7.2
-tensorflow==2.17.0
+tensorflow-cpu==2.17.0
 tensorflow-io-gcs-filesystem==0.31.0
 termcolor==2.5.0
 threadpoolctl==3.5.0
@@ -51,3 +52,5 @@ urllib3==2.2.3
 Werkzeug==3.0.4
 wrapt==1.16.0
 zipp==3.20.2
+tensorflow==2.17.0
+scikit-learn==1.5.2

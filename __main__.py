@@ -1,9 +1,10 @@
 import sys
+sys.path.append('./DiseaseDatabase-master')
+
 from GUI.About import About
 from GUI.Diagnose import Diagnose
 from PyQt5.QtWidgets import QApplication
 from WebMD.reader import readDatabase
-
 
 if __name__ == '__main__':
     database = readDatabase('./data')
